@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main() { //reverse the array
   int arr[5];
+  printf("enter the element: ");
   for(int i=0;i<=4;i++){
-    printf("enter the element: ");
     scanf("%d",&arr[i]);
   }
 for(int i=4;i>=0;i--){
